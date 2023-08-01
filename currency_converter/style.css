@@ -63,7 +63,7 @@ body {
     -o-border-radius: 5px;
     font-size: 1rem;
     padding: 0 10px;
-    background: transparent;
+    background: none;
     color: #ffff;
     border: 1px solid #9999;
     transition: all 0.3s ease;
@@ -71,6 +71,7 @@ body {
     -moz-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
+    cursor: pointer;
 }
 
 .container form input:focus{
